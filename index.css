@@ -6,8 +6,35 @@ html {
   background-size: cover;
 }
 
-.text {
-  color: black;
+body {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: 25%;
+    margin-right: 25%; 
+    color: white;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
 }
 
 a {
