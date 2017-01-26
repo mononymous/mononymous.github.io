@@ -1,0 +1,35 @@
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#blue {
+  color: #3b5998;
+}
+
+#blue:hover {
+  background-color: #3b5998;
+  color: white;
+  text-decoration: none;
+}
+
+#orange {
+  color: orange;
+}
+
+#orange:hover {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+}
